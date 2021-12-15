@@ -9,8 +9,8 @@ const App = () => {
   return (
     // <MainMenu />
     // <LeaderBoard />
-    <GameRules />
-    // <GettingReady />
+    // <GameRules />
+    <GettingReady />
     // <SuccessDone />
   );
 };
