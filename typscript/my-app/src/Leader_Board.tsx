@@ -9,7 +9,7 @@ import ExitComponent from "./components/buttonforApp4/ExitGameButton/ExitGameBut
 import Experios from "./components/Experios/Experios";
 const leaderBoard = () => {
   return (
-    // page2css
+   
     <body>
       <nav className="navbar">
         <div className="Expense">
@@ -110,7 +110,7 @@ const leaderBoard = () => {
         </div>
       </div>
     </body>
-    // page2css
+  
   );
 };
 export default leaderBoard;

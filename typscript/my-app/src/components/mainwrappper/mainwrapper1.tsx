@@ -54,7 +54,6 @@ const mainWrapper1 = () => {
           </p>
         </div>
         <div className="mainwrapper4">
-          {/* <img src={pic21} alt="Girl in a jacket" /> */}
           <div className="mainwrapper4-inside"> </div>
           <div className="mainwrapper4-inside1">
             {" "}

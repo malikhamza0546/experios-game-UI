@@ -12,7 +12,7 @@ import forwardButton from "../src/UI/outline_arrow_forward_white_24dp.png";
 import humberger from "../src/UI/outline_menu_black_24dp.png";
 const gameRules = () => {
   return (
-    // page2css
+    
     <body>
       <nav className="navbar">
         <div className="Expense">
@@ -56,7 +56,7 @@ const gameRules = () => {
         </div>
       </div>
     </body>
-    // page2css
+   
   );
 };
 export default gameRules;

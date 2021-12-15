@@ -10,7 +10,7 @@ import Cards from "./components/cards/cards";
 import Navbar from "./components/Navbar/navbar";
 const mainMenu = () => {
   return (
-    // page1
+
     <body>
       <nav className="navbar">
         <div className="nav-wrapper">
