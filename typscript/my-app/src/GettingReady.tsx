@@ -12,7 +12,6 @@ import ButtonComp from "../src/components/Button1/Button1";
 import backButton from "../src/UI/outline_arrow_back_white_24dp.png";
 import humberger from "../src/UI/outline_menu_black_24dp.png";
 import { useState, useEffect, FunctionComponent } from "react";
-import { stringify } from "querystring";
 
 interface Size {
   width: number;
@@ -21,7 +20,7 @@ interface Size {
 
 const GettingReady = () => {
   const [setter, setSetter] = useState<boolean>(false);
-  // const [settter, setSettter] = useState<boolean>(false);
+
   const [size, setSize] = useState<Size>();
   const resizeHanlder = () => {
     const width = window.innerWidth;
@@ -40,9 +39,6 @@ const GettingReady = () => {
 
   useEffect(() => {
     window.onresize = resizeHanlder;
-
-    // You can also use:
-    // window.addEventListener('resize', resizeHanlder);
   }, []);
 
   return (
