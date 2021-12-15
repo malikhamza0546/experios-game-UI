@@ -46,7 +46,6 @@ const GettingReady = () => {
   }, []);
 
   return (
-    // page2css
     <body>
       <nav className="navbar">
         <div className="behindEC"></div>
@@ -58,8 +57,6 @@ const GettingReady = () => {
             className="combnation"
             style={{
               display: setter && (size?.width || "") <= 800 ? "flex" : "none",
-
-              // background: !size || size.width >= 800 ? "red" : "green",
             }}
           >
             <ConnecteedComponent text="6CONNECTED" picPath={conectedIcon} />
@@ -153,7 +150,6 @@ const GettingReady = () => {
         </div>
       </div>
     </body>
-    // page2css
   );
 };
 export default GettingReady;
