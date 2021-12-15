@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-// page2css
 body {
   background-image: url("/UI/tibumana-waterfall-bali-island-indonesia.png");
   background-position: center;
   min-height: 100%;
-  //   min-width: 1024px;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -397,7 +396,6 @@ p {
     display: none;
   }
   .humberger {
-    // border: 2px solid red;
     display: block;
     visibility: visible;
   }

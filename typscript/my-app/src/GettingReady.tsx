@@ -11,7 +11,7 @@ import Experios from "./components/Experios/Experios";
 import ButtonComp from "../src/components/Button1/Button1";
 import backButton from "../src/UI/outline_arrow_back_white_24dp.png";
 import humberger from "../src/UI/outline_menu_black_24dp.png";
-import { useState, useEffect, FunctionComponent } from "react";
+import { useState, useEffect} from "react";
 
 interface Size {
   width: number;
@@ -20,12 +20,10 @@ interface Size {
 
 const GettingReady = () => {
   const [setter, setSetter] = useState<boolean>(false);
-
   const [size, setSize] = useState<Size>();
   const resizeHanlder = () => {
     const width = window.innerWidth;
     const height = window.innerHeight;
-
     setSize({
       width: width,
       height: height,
