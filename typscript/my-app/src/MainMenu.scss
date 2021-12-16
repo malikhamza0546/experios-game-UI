@@ -8,19 +8,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  // background-size: 100% 100%;
-  // height: 100vh;
-  // width: 100%;
 }
 
 nav {
-  // border: 2px solid blue;
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  // border: 2px solid red;
 }
 
 .mainWrapper1 {
@@ -30,44 +25,34 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // border: 2px solid green;
 }
 
 .Expense {
   display: flex;
   width: 137px;
   height: 35px;
-
-  // right
-  // left: 300px;
-  // right: 0px;
   margin-top: 20px;
-
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
 }
 .combnation {
   display: flex;
 
   justify-content: space-between;
   width: 359px;
-  // border: 2px solid red;
 }
 .connected {
   display: flex;
   border-radius: 32px;
-  // border: 2px solid grey;
+
   width: 200px;
   height: 37px;
   margin-left: 15px;
-  // right: 25px;
+
   margin-top: 20px;
 }
 .Logout {
   display: flex;
   border-radius: 32px;
-  // border: 2px solid grey;
+
   width: 141px;
   height: 37px;
 
@@ -78,12 +63,8 @@ nav {
   height: auto;
   margin-top: 10%;
   width: 65%;
-  // border: 2px solid red;
-
-  // border: 2px solid red;
 }
 .firstWrapper {
-  // border: 2px solid greenyellow;
   width: 100%;
   text-align: center;
   height: auto;
@@ -96,15 +77,13 @@ nav {
 }
 
 .secondWrapper {
-  // border: 1px solid red;
   width: 100%;
   height: auto;
-  // font-size: 103px;
+
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  // background-image: url("/UI/hh.png.png");
 }
 
 .secondWrapper h1 {
@@ -117,7 +96,6 @@ nav {
   display: flex;
   padding: 0px;
   margin: 0px;
-  // background-image: url("/UI/hh.png.png");
 }
 
 .secondWrapper img {
@@ -125,14 +103,11 @@ nav {
   right: 6%;
 }
 .thirdWrapper {
-  // border: 3px solid green;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  // border: 1px solid green;
-  width: 65%;
 
-  // background-image: url("/UI/Path 6 Copy 2.png");
+  width: 65%;
 }
 
 .logo {
@@ -164,7 +139,7 @@ nav {
 }
 .logo3 {
   position: relative;
-  // z-index: 0;
+
   bottom: 300px;
   left: 70px;
 }
@@ -219,14 +194,6 @@ nav {
   font-family: "Montserrat", sans-serif;
 }
 
-// .text2 {
-//   position: absolute;
-//   z-index: 0;
-//   bottom: 1%;
-//   right: 57%;
-//   font-family: "Montserrat", sans-serif;
-// }
-
 .text3 {
   position: absolute;
   right: 11%;
@@ -247,7 +214,6 @@ nav {
 
 .greylogo {
   position: relative;
-  // height: 40vh;
 }
 
 .logo4-inside {
@@ -255,7 +221,6 @@ nav {
 
   top: 40px;
   left: 45px;
-  // z-index: 1;
 }
 
 .logo5-inside {
@@ -283,7 +248,7 @@ nav {
 
 .logo4 {
   position: relative;
-  // z-index: 0;
+
   bottom: 300px;
   left: 84px;
 }
@@ -343,14 +308,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // border: 2px solid yellow;
+
   width: 60%;
 }
 
 @media only screen and (max-width: 800px) {
-  // nav {
-  //   flex-direction: column;
-  // }
   .Expense {
     margin-left: 2%;
   }

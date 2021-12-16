@@ -13,4 +13,4 @@ export interface IAActualForms {
 interface IForms {
   type: string;
   placeholder: string;
-} //
+}

@@ -18,7 +18,7 @@ nav {
   height: auto;
 
   display: flex;
-  // border: 2px solid black;
+
   justify-content: center;
 }
 
@@ -26,7 +26,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // border: 2px solid yellow;
+
   width: 70%;
 }
 
@@ -44,8 +44,6 @@ nav {
   justify-content: space-between;
 
   width: 545px;
-
-  // border: 2px solid red;
 }
 .connected {
   display: flex;
@@ -125,14 +123,13 @@ nav {
   flex-direction: column;
   width: 100%;
   height: auto;
-  // border: 2px solid red;
+
   justify-content: center;
   align-items: center;
 }
 .mainwrapper {
   display: flex;
 
-  // border: 2px solid rgb(234, 21, 21);
   align-items: center;
   flex-direction: column;
 
@@ -156,11 +153,9 @@ nav {
   margin-top: 2%;
   display: flex;
   justify-content: space-between;
-  // border: 2px solid green;
 }
 
 .mainwrapper2-inside1 {
-  // border: 2px solid red;
   display: inline-block;
 }
 
@@ -168,13 +163,12 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 60%;
-  // border: 2px solid pink;
 }
 
 .box1 {
   width: 30%;
   height: 81px;
-  // border: 2px solid black;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,7 +192,7 @@ nav {
 .box2 {
   width: 30%;
   height: 81px;
-  // border: 2px solid black;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -223,7 +217,7 @@ nav {
 .box3 {
   width: 30%;
   height: 81px;
-  // border: 2px solid black;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,7 +240,6 @@ nav {
 }
 
 .mainwrapper3 {
-  // border: 2px solid white;
   width: 94%;
 }
 
@@ -261,7 +254,6 @@ nav {
   border-radius: 7px;
 }
 .mainwrapper4-inside {
-  // border: 2px solid yellow;
   width: 98%;
   height: 641px;
   background-image: url("/UI/Image 15.png");
@@ -272,8 +264,6 @@ nav {
   margin-bottom: 10px;
   margin-top: 1%;
   background-size: 100% 100%;
-
-  // width: 100%;
 }
 
 .mainwrapper3-insidep1 {
@@ -282,12 +272,10 @@ nav {
 }
 
 .mainwrapper5 {
-  // border: 2px solid white;
   width: 94%;
 }
 
 .mainwrapper6 {
-  // border: 2px solid hsl(0, 53%, 87%);
   width: 94%;
   display: flex;
   justify-content: center;
@@ -311,7 +299,6 @@ nav {
 }
 
 .mainwrapper6-inside {
-  // border: 2px solid white;
   width: 40%;
   height: auto;
   display: flex;
@@ -352,9 +339,6 @@ nav {
 }
 
 @media only screen and (max-width: 800px) {
-  // nav {
-  //   flex-direction: column;
-  // }
   .Expense {
     margin-left: 2%;
   }
@@ -385,9 +369,3 @@ nav {
     justify-content: flex-start;
   }
 }
-
-// @media only screen and (max-width: 1173px) {
-//   .mainwrapper {
-//     width: 60%;
-//   }
-// }

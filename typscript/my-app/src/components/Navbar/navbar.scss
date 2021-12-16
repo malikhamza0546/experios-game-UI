@@ -3,7 +3,7 @@ nav {
   height: auto;
 
   display: flex;
-  // border: 2px solid black;
+
   justify-content: center;
 }
 
@@ -11,7 +11,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // border: 2px solid yellow;
+
   width: 70%;
 }
 
@@ -29,8 +29,6 @@ nav {
   justify-content: space-between;
 
   width: 545px;
-
-  // border: 2px solid red;
 }
 .connected {
   display: flex;
@@ -43,47 +41,6 @@ nav {
   background-color: #113446;
   opacity: 0.75;
 }
-// .connected1 {
-//   display: flex;
-//   border-radius: 32px;
-
-//   width: 170px;
-
-//   height: 37px;
-
-//   margin-top: 20px;
-//   background-color: #113446;
-//   opacity: 0.75;
-// }
-
-// .Logout {
-//   display: flex;
-//   border-radius: 32px;
-//   width: 156px;
-//   height: 37px;
-//   background-color: #113446;
-//   opacity: 0.75;
-//   margin-top: 20px;
-// }
-// .connect-logo-2 {
-//   margin-left: 4%;
-//   margin-top: 3%;
-//   height: 19px;
-//   width: 120px;
-//   font-family: "Montserrat", sans-serif;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   color: white;
-// }
-// .connect-logo-1 {
-//   margin-left: 7%;
-//   height: 15px;
-//   margin-top: 5%;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
 
 .connect-logo-5 {
   margin-left: 10%;
@@ -93,22 +50,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
 }
-// .connect-logo-6 {
-//   padding-left: 3%;
-//   margin-top: 4%;
-//   height: 19px;
-//   width: 104px;
-//   font-family: "Montserrat", sans-serif;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   color: white;
-// }
 
 @media only screen and (max-width: 800px) {
-  // nav {
-  //   flex-direction: column;
-  // }
   .Expense {
     margin-left: 2%;
   }
