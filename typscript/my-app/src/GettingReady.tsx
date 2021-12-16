@@ -11,7 +11,7 @@ import Experios from "./components/Experios/Experios";
 import ButtonComp from "../src/components/Button1/Button1";
 import backButton from "../src/UI/outline_arrow_back_white_24dp.png";
 import humberger from "../src/UI/outline_menu_black_24dp.png";
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 
 interface Size {
   width: number;

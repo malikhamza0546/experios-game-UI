@@ -18,17 +18,14 @@ nav {
   height: auto;
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
 }
 .EC {
   display: flex;
-  border: 2px ssolid green;
-  border: 2px solid green;
+
   width: 60%;
   justify-content: space-between;
 }
 .behindEC {
-  border: 2px solid yellow;
   width: 3%;
 }
 
@@ -45,13 +42,11 @@ nav {
 
   justify-content: space-around;
   width: 381px;
-  border: 2px solid red;
 }
 .combnation1 {
   display: flex;
   justify-content: space-around;
   width: 381px;
-  border: 2px solid red;
 }
 
 .connected {
@@ -167,7 +162,6 @@ nav {
   border-radius: 6px;
 }
 .humberger {
-  border: 2px solid red;
   display: block;
   visibility: hidden;
 }
