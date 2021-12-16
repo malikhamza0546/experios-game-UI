@@ -6,12 +6,6 @@ import GameRules from "./GameRules";
 import GettingReady from "./GettingReady";
 import SuccessDone from "./SuccessDone";
 const App = () => {
-  return (
-    // <MainMenu />
-    // <LeaderBoard />
-    // <GameRules />
-    <GettingReady />
-    // <SuccessDone />
-  );
+  return <GettingReady />;
 };
 export default App;
